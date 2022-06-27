@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(./images/micheile-henderson-fufYEOAWPdc-unsplash.jpg);
+  background-size: cover;
+  /* background-position: left; */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1,
+h2 {
+  text-align: center;
+  color: rgb(70, 44, 35);
+}
+.player-info {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  margin: 2vh 25vw;
+  width: 50vw;
+  height: 50vh;
+  table-layout: fixed;
+  /* border-collapse: collapse; */
+  /* border: 5px solid green; */
+}
+td {
+  border: 4px solid bisque;
+  text-align: center;
+  font-size: 4rem;
+  color: crimson;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+  /* word-wrap: break-word; */
+}
+
+.win h1 {
+  font-size: 4rem;
+}
